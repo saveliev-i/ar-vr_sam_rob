@@ -18,14 +18,10 @@
   <body style="margin: 0; overflow: hidden;">
       
     <a-scene embedded arjs = 'trackingMethod: best;'>
-	        <a-assets>
-            <a-asset-item id="vual-texture" src="vual.png"></a-asset-item>
-        </a-assets>
         <!-- Маркер 1 -->
        <a-marker preset="hiro" registerevents>
  <a-marker preset="hiro" registerevents>
-            <a-entity gltf-model="untitled.gltf" src="#vual-texture" position="0 1 0" rotation="0 0 0" scale="0,5 0,5 0,5"></a-entity>
-<a-text value="cube" color="white" width="6" position="0 0 0"font="arial-msdf.json" negate="false"></a-text> 
+            <a-entity gltf="untitled.gltf" src="vual.png" position="0 1 0" rotation="0 0 0" scale="1 1 1"></a-entity>
         <!-- <a-marker preset="hiro" registerevents>
         <a-image src="eng_cyl.png" position="0 1 0" rotation="-45 0 0" scale="1 1 1"></a-image>
         <a-text value="Циліндр" color="white" width="6" position="0 0 0"font="arial-msdf.json" negate="false"></a-text> 
